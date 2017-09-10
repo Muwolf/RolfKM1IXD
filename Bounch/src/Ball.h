@@ -1,3 +1,4 @@
+/*Lees de READ ME in main.ccp*/
 
 #ifndef _BALL
 #define _BALL
@@ -7,7 +8,7 @@ class Ball
 {
 public:
 
-	void setup();
+	void setup(float _x, float _y, int _radius);
 	void update();
 	void draw();
 
@@ -18,8 +19,16 @@ public:
 	int radius;
 	ofColor color; 
 
+	int colorR;
+	int colorG;
+	int colorB;
 
+	int modColorR;
+	int modColorG;
+	int modColorB; 
+	 
 	Ball();
+
 private:
 
 };

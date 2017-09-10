@@ -1,3 +1,6 @@
+/*Lees de READ ME in main.ccp*/
+
+
 #pragma once
 
 #include <iostream>
@@ -5,7 +8,7 @@ using namespace std;
 
 #include "ofMain.h"
 #include "Ball.h"
-#define NBALLS 5
+#define NBALLS 10
 
 class ofApp : public ofBaseApp{
 
@@ -13,8 +16,7 @@ class ofApp : public ofBaseApp{
 		void setup();
 		void update();
 		void draw();
-
-		void keyPressed(int key);
-		
 		Ball myBall[NBALLS]; 
+
+		
 };

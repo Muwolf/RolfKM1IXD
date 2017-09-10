@@ -1,3 +1,8 @@
-﻿  Ball.cpp
+﻿  main.cpp
   ofApp.cpp
-src\ofApp.cpp(9): error C2660: 'Ball::setup': function does not take 3 arguments
+  Bounch.vcxproj -> C:\Users\muwol\OneDrive\Documents\OpenFrameworks\apps\KM1\RolfKM1IXD\Bounch\bin\Bounch_debug.exe
+  Bounch.vcxproj -> bin\Bounch_debug.pdb (Full PDB)
+  
+  	                   9	C:\Users\muwol\OneDrive\Documents\OpenFrameworks\export\vs\Win32\
+  	  *EXTRA File 		 1503232	C:\Users\muwol\OneDrive\Documents\OpenFrameworks\apps\KM1\RolfKM1IXD\Bounch\bin\fmodex64.dll
+  	  *EXTRA File 		 1552384	C:\Users\muwol\OneDrive\Documents\OpenFrameworks\apps\KM1\RolfKM1IXD\Bounch\bin\fmodexL64.dll
