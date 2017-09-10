@@ -1,6 +1,6 @@
 
-#ifndef _BALL
-#define _BALL
+//#ifndef _BALL
+//#define _BALL
 #include "ofMain.h"
 
 class Ball
@@ -23,5 +23,5 @@ public:
 private:
 
 };
-#endif
+//#endif
 

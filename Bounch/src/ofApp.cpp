@@ -1,4 +1,5 @@
 #include "ofApp.h"
+#include "Ball.h"
 
 void ofApp::setup(){
 	for (int i = 0; i<NBALLS; i++) {
