@@ -83,9 +83,7 @@ void ofApp::analogPinChanged(const int& pin) {
 	radius = ofMap(arduino.getAnalog(pinRadiusPot), 0, 1023, minSize, maxSize);
 
 	//Map the color to the light sensor, more light means more red, and less blue. 
-	color = ofColor(ofMap(arduino.getAnalog(pinLightSensor), 0, 1023, 0, 255),  //RED
-					0,															//GREEN
-					ofMap(arduino.getAnalog(pinLightSensor), 0, 1023, 255, 0));	//BLUE
+	color = ofColor(ofMap(arduino.getAnalog(pinLightSensor), 0, 1023, 0, 255), 0, ofMap(arduino.getAnalog(pinLightSensor), 0, 1023, 255, 0));	
 }
 
 //--------------------------------------------------------------
